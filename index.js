@@ -1,2 +1,3 @@
-require('./angular-cookies');
-module.exports = 'ngCookies';
+import './angular-cookies.js';
+
+export default window.ngCookies;
